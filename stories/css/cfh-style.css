@@ -1,0 +1,83 @@
+@font-face {
+		font-family: 'Sucrose Bold Two';
+		src: url('../fonts/sucrose.woff2') format('woff2');
+		}
+@font-face {
+    font-family: 'IM Fell French Canon Pro';
+    src: url('../fonts/im-fell-french-canon-pro.woff2') format('woff2');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header { 
+	background: url(../img/mountain-range.jpg) no-repeat;
+	padding-top: 61.93333333%;
+	background-size: cover;
+  font-family: 'Sucrose Bold Two';
+}
+
+header img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 45.8%;
+}
+ header h1 { 
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+  font-size: 8vw;
+  line-height: .8;
+  margin-top: 0;
+  text-align: center;
+}
+
+header h1 span {
+  display: block;
+  font-size: 4.75vw;
+  padding-top: 0.5rem;
+}
+
+main { 
+  background: #fff;
+  position: relative;
+  border: 1px solid #fff;
+  font-family: 'IM Fell French Canon Pro';
+  font-size: 2rem;
+  padding: 2rem 2%;
+  line-height: 1.6;
+}
+
+
+@media all and (max-width: 400px) {
+  main { padding: 2rem; }
+}
+
+@media (min-width: 1000px)
+{
+	header h1 { 
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+  font-size: 12vw;
+  line-height: .8;
+  margin-top: 0;
+  text-align: center;
+}
+header h1 span {
+  display: block;
+  font-size: 8.75vw;
+}
+main { 
+  background: #fff;
+  position: relative;
+  border: 1px solid #fff;
+  font-family: 'IM Fell French Canon Pro';
+  font-size: 1.4rem;
+  padding: 2rem 25%;
+  line-height: 1.6;
+}
+}
