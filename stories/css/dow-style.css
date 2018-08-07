@@ -1,0 +1,102 @@
+@font-face {
+		font-family: 'Sucrose Bold Two';
+		src: url('../fonts/sucrose.woff2') format('woff2');
+		}
+@font-face {
+    font-family: 'IM Fell French Canon Pro';
+    src: url('../fonts/im-fell-french-canon-pro.woff2') format('woff2');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header { 
+	padding-top: 50%;
+	background-size: cover;
+   font-family: 'Quintessential', cursive;
+   /*font-family: 'MedievalSharp', cursive;*/
+}
+
+header img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+ header h1 { 
+	position: fixed;
+	top: 1rem;
+	left: 33%;
+  font-size: 4vw;
+  line-height: .8;
+  margin-top: 0;
+  text-align: center;
+  color:  #8BA9B9;
+}
+
+header h1 span {
+  display: block;
+  font-size: 4.75vw;
+  padding-top: 0.5rem;
+}
+
+main { 
+  background: black;
+  position: relative;
+  border: 1px solid black;
+  font-family: 'IM Fell French Canon Pro';
+  font-size: 2rem;
+  padding: 2rem 2%;
+  line-height: 1.6;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+	color:orange;
+}
+
+p
+{
+	color: white;
+}
+
+art
+{
+	font-size: 1rem;
+	text-align: right;
+}
+
+
+@media all and (max-width: 400px) {
+  main { padding: 2rem; }
+}
+
+@media (min-width: 1000px)
+{
+	header h1 { 
+	position: fixed;
+	top: 2rem;
+	left: 33%;
+  font-size: 4vw;
+  line-height: .8;
+  margin-top: 0;
+  text-align: center;
+  color:  #8BA9B9;
+}
+header h1 span {
+  display: block;
+  font-size: 8.75vw;
+}
+main { 
+  background: black;
+  position: relative;
+  border: 1px solid black;
+  font-family: 'IM Fell French Canon Pro';
+  font-size: 1.4rem;
+  padding: 2rem 25%;
+  line-height: 1.6;
+}
+}
